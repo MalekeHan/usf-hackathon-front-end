@@ -14,11 +14,10 @@ if (typeof window !== 'undefined' && window.location.pathname === '/notes') {
 }
 
 
-// Show an element
-const show = (elem) => {
-  elem.style.display = 'inline';
-};
-show(saveNoteBtn);
+if (saveNoteBtn) {
+    show(saveNoteBtn);
+  }
+  
 
 let activeNote = {};
 
