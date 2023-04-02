@@ -2,11 +2,12 @@
   "name": "shared-notes-app",
   "version": "1.0.0",
   "description": "shared notes application",
-  "main": "index.js",
+  "main": "frontend/public/assets/js/index.js",
+
   "scripts": {
     "start": "node frontend/public/assets/js/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "nodemon frontend/public/assets/js/index.js"
   },
   "author": "",
   "license": "ISC",
