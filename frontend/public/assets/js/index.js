@@ -5,7 +5,7 @@ let newNoteBtn;
 let noteList;
 const baseURL = "http://localhost:5000/api/openai/";
 
-if (window.location.pathname === '/notes') {
+if (typeof window !== 'undefined' && window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
   noteText = document.querySelector('.note-textarea');
   saveNoteBtn = document.querySelector('.save-note');
