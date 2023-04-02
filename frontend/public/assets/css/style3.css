@@ -1,0 +1,42 @@
+body {
+  background-color: #020202;
+  color: #000;
+}
+a {
+  color: #08f;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.jumbotron {
+  background-color: rgba(111, 160, 202, 0.703) !important;
+}
+
+:root {
+  --dark-bg: rgba(205, 191, 191, 0.95);
+  --spacing: 350px;
+
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+main {
+  width: 50vw;
+  color: rgb(235, 235, 235);
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+  
